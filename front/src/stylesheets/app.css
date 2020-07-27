@@ -1,0 +1,35 @@
+body {
+  font-family: "Roboto";
+  font-weight: 100;
+}
+
+.footer {
+  background-color: #e2fafc;
+  height: 9vh;
+}
+
+.footer > .logo {
+  height: 60%;
+  margin: 0px 32px;
+}
+
+.footer > span {
+  color: #0179a7;
+  font-size: 1.2vw;
+}
+
+.settings-row {
+  margin-bottom: 16px !important;
+}
+
+.settings-form {
+  width: 100%;
+  font-size: 1.2vw;
+}
+
+.config-bg {
+  background-image: url("/assets/config-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}

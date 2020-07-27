@@ -1,0 +1,33 @@
+.background {
+  background-image: url("../assets/home.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 82vh;
+  width: auto;
+}
+
+.title-container {
+  height: 50%;
+}
+
+.main-logo {
+  margin: 5vh 25% 0%;
+  height: 12vh;
+}
+
+.action-btn {
+  margin: 2vh !important;
+  height: 11vh !important;
+  min-height: 60px;
+  width: 18vw !important;
+  min-width: 280px !important;
+  border-radius: 16px !important;
+}
+
+.btn-icon {
+  height: 8vw;
+  max-height: 50px;
+  margin-right: 16px;
+}

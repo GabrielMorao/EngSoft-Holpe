@@ -1,0 +1,16 @@
+.form-container {
+  height: 82vh;
+}
+
+.hand-bg {
+  width: 100%;
+}
+
+.auth-form {
+  height: 50%;
+}
+
+.login-form {
+  width: 50%;
+  margin: 4px 25% !important;
+}

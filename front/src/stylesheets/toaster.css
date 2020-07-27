@@ -1,0 +1,9 @@
+.toaster-info {
+  text-align: center;
+  background-color: #208bb3;
+}
+
+.toaster-error {
+  text-align: center;
+  background-color: #f44336;
+}
