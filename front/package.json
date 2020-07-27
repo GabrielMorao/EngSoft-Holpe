@@ -1,0 +1,50 @@
+{
+  "name": "holpe-front",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "format": "prettier \"src/**/*.{js, html}\" --write",
+    "lint": "eslint \"src/**/*.{js, jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "now-build": "parcel build src/index.html --out-dir build",
+    "build": "parcel build src/index.html --out-dir build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@date-io/core": "^1.3.13",
+    "@date-io/moment": "^1.3.13",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/pickers": "^3.2.10",
+    "@reach/router": "^1.3.3",
+    "@types/react": "^16.9.41",
+    "axios": "^0.19.2",
+    "cloudinary-react": "^1.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.27.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-loader-spinner": "^3.1.14",
+    "react-moment": "^0.9.7",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-promise-tracker": "^2.1.0",
+    "react-text-mask": "^5.4.3",
+    "react-toastify": "^6.0.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5"
+  }
+}
