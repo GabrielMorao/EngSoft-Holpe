@@ -28,7 +28,7 @@
     "moment": "^2.26.0",
     "mongoose": "^5.9.14",
     "mongoose-unique-validator": "^2.0.3",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.4.16",
     "standard": "^14.3.4",
     "winston": "^2.4.4",
     "winston-papertrail": "^1.0.5"
